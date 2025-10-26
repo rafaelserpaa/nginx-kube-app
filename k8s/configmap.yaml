@@ -7,7 +7,7 @@ data:
   nginx.conf: |
     user  nginx;
     worker_processes  auto;
-    daemon off; # Adicionado para rodar em foreground
+
 
     events {
         worker_connections  1024;
